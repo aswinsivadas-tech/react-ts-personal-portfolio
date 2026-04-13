@@ -75,7 +75,7 @@ export const projects: ProjectItem[] = [
     link: '',
     github: 'https://github.com/aswinsivadas-tech/node-rest-api-typescript',
     techStack: [
-      techStacks.node,
+      // techStacks.node,
       { icon: SiExpress, name: 'Express', color: '#000' },
       techStacks.typescript,
       techStacks.mongodb,
