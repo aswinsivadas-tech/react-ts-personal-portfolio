@@ -10,18 +10,18 @@ import { SectionBackground } from './ui/SectionBackground';
 import { TerminalWindow } from './ui/TerminalWindow';
 import { AboutTerminal } from './ui/AboutTerminal';
 
-const whoAmICard = {
+const _whoAmICard = {
   icon: User2,
   title: 'Who I Am',
   description: [
     'Full Stack Developer with hands-on experience in scalable web applications.',
     'Passionate about clean architecture and modern JavaScript technologies.',
-    'Technical trainer focusing on simplifying complex concepts.',
+    'Dedicated to creating efficient, maintainable, and user-friendly applications.',
   ],
   color: 'bg-blue-600',
 };
 
-const whatIDoCard = {
+const _whatIDoCard = {
   icon: Code2,
   title: 'What I Do',
   description: [
@@ -32,29 +32,29 @@ const whatIDoCard = {
   color: 'bg-purple-600',
 };
 
-const myGoalsCard = {
+const _myGoalsCard = {
   icon: GoGoal,
   title: 'My Goals',
   description: [
     'Develop impactful technology products for real-world challenges.',
     'Deepen expertise in cloud-native development and DevOps.',
-    'Mentor emerging developers through community engagement.',
+    'Develop modern, scalable applications that prioritize user experience and performance.',
   ],
   color: 'bg-green-600',
 };
 
-const myPhilosophyCard = {
+const _myPhilosophyCard = {
   icon: Lightbulb,
-  title: 'My Philosophy',
-  description: [
-    'Software should be simple, reliable, and user-focused.',
-    'Continuous learning is vital as technology evolves.',
-    'Aim for meaningful problems rather than just complex code.',
-  ],
+title: 'My Philosophy',
+description: [
+  'Great software is simple, reliable, and designed with the user in mind.',
+  'I believe in continuous learning to keep pace with evolving technologies.',
+  'I strive to solve meaningful problems rather than chase unnecessary complexity.',
+],
   color: 'bg-orange-600',
 };
 
-function AboutCard({
+function _AboutCard({
   icon: Icon,
   title,
   description,

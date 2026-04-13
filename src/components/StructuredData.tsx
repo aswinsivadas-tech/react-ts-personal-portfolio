@@ -7,12 +7,12 @@ export function StructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Aswin Sivadas',
-      url: 'https://aswinsivadas.tech/',
-      image: 'https://aswinsivadas.tech/assets/profile.png',
+      url: 'https://aswinsivadas.in/',
+      image: 'https://aswinsivadas.in/assets/profile.png',
       jobTitle: 'Full Stack Developer',
-      worksFor: {
-        '@type': 'Organization',
-        name: 'iCover Insure',
+      hasOccupation: {
+        '@type': 'Occupation',
+        name: 'Full Stack Developer (MERN Stack)',
       },
       address: {
         '@type': 'PostalAddress',
@@ -31,10 +31,10 @@ export function StructuredData() {
       knowsAbout: [
         'Full Stack Development',
         'MERN Stack',
-        'MEAN Stack',
+        'Node.js',
         'Nest.js',
-        'Angular',
         'React.js',
+        'Express.js',
         'Next.js',
         'Node.js',
         'TypeScript',
@@ -51,7 +51,7 @@ export function StructuredData() {
       '@type': 'ProfessionalService',
       name: 'Aswin Sivadas - Full Stack Development Services',
       description:
-        'Full Stack Developer (MERN, MEAN, Nest.js)  specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
+        'Full Stack Developer (MERN, Node.js, Nest.js)  specializing in React, Next.js, Node.js, Nest.js, TypeScript, MongoDB, and PostgreSQL.',
       provider: {
         '@type': 'Person',
         name: 'Aswin Sivadas',
@@ -63,7 +63,7 @@ export function StructuredData() {
       serviceType: [
         'Web Development',
         'Full Stack Development',
-        'Technical Training',
+        'MERN Stack Development',
         'Software Development',
       ],
     };
@@ -74,8 +74,7 @@ export function StructuredData() {
       '@type': 'WebSite',
       name: 'Aswin Sivadas Portfolio',
       url: 'https://aswinsivadas.tech/',
-      description:
-        'Portfolio website of Aswin Sivadas - Full Stack Developer and Technical Trainer',
+      description: 'Portfolio website of Aswin Sivadas - Full Stack Developer',
       author: {
         '@type': 'Person',
         name: 'Aswin Sivadas',

@@ -57,6 +57,13 @@ const Typewriter = ({
   return <span>{displayText}</span>;
 };
 
+const placeholderPrompts = [
+  "try me! type 'help' →",
+  'whoami • status • focus',
+  'click here & explore',
+  'type a command ↓',
+];
+
 export function TerminalWindow() {
   const [history, setHistory] = useState<LogEntry[]>([]);
   const [input, setInput] = useState('');
@@ -69,14 +76,6 @@ export function TerminalWindow() {
   const containerRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(containerRef, { once: false, margin: '-30%' });
-
-  const placeholderPrompts = [
-    "try me! type 'help' →",
-    "whoami • status • focus",
-    "click here & explore",
-    "type a command ↓",
-  ];
-
   const getLocalTime = (date: Date = new Date()) => {
     const h = date.getHours().toString().padStart(2, '0');
     const m = date.getMinutes().toString().padStart(2, '0');
@@ -500,15 +499,15 @@ export function TerminalWindow() {
                 animate={{ opacity: 1 }}
                 className="group relative flex items-center gap-2 pb-1 pt-2"
               >
-                  <motion.div
-                    animate={{ opacity: [0.3, 0.6, 0.3] }}
-                    transition={{
-                      duration: 2,
-                      repeat: Infinity,
-                      ease: 'easeInOut',
-                    }}
-                    className="absolute -inset-x-2 inset-y-0 -z-10 rounded bg-cyan-500/5"
-                  />
+                <motion.div
+                  animate={{ opacity: [0.3, 0.6, 0.3] }}
+                  transition={{
+                    duration: 2,
+                    repeat: Infinity,
+                    ease: 'easeInOut',
+                  }}
+                  className="absolute -inset-x-2 inset-y-0 -z-10 rounded bg-cyan-500/5"
+                />
                 <motion.span
                   animate={{ x: [0, 3, 0] }}
                   transition={{

@@ -12,7 +12,7 @@ export interface ServiceItem {
 export const services: ServiceItem[] = [
   {
     icon: Layers3,
-    title: 'Full-Stack MERN Development',
+    title: 'Full-Stack Web Development',
     description:
       'I build scalable web applications using the MERN stack (MongoDB, Express, React, Node.js), focusing on development. I create responsive frontends with React and build robust backend APIs with Node.js and Express. My goal is to deliver maintainable, user-friendly products.',
     color: 'bg-blue-500',

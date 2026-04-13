@@ -64,7 +64,7 @@ export function Hero() {
             {/* Profile image – same scan overlay as featured work (no border) */}
             <div className="relative w-full max-w-lg mx-auto rounded-full overflow-hidden shadow-2xl">
               <img
-                src="/assets/profile.png"
+                src="/assets/aswinsivadasprofile.png"
                 alt="Aswin Sivadas"
                 className="relative w-full h-auto block rounded-full transform hover:scale-105 transition-transform duration-500"
               />

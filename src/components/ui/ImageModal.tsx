@@ -15,7 +15,7 @@ export function ImageModal({
   onClose,
   image,
   title,
-  description,
+  description:_description,
 }: ImageModalProps) {
   useEffect(() => {
     if (isOpen) {
