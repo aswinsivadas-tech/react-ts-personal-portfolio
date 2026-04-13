@@ -260,14 +260,14 @@ export function TerminalWindow() {
             </span>
             <span className="text-gray-300">
               <Typewriter
-                text="Full Stack Developer (MERN, MEAN, Nest.js) & Technical Trainer"
+                text="Full Stack Developer | MERN Stack Specialist (React, Node.js, NestJS, Express.js)"
                 delay={50}
                 speed={5}
               />
             </span>
             <span className="italic text-gray-400">
               <Typewriter
-                text="building scalable web apps and training developers"
+                text="building scalable web apps and Modern Web Solutions"
                 delay={100}
                 speed={5}
               />
@@ -309,7 +309,7 @@ export function TerminalWindow() {
             <span className="flex items-center gap-2">
               <span className="text-cyan-400">→</span>{' '}
               <Typewriter
-                text="building scalable web applications"
+                text="Focused on building real things, not just writing code."
                 delay={50}
                 speed={5}
               />
@@ -317,7 +317,7 @@ export function TerminalWindow() {
             <span className="flex items-center gap-2">
               <span className="text-cyan-400">→</span>{' '}
               <Typewriter
-                text="training developers in modern stack"
+                text="Building Scalable web applications"
                 delay={100}
                 speed={5}
               />
