@@ -21,7 +21,7 @@ import {
   SiAdobephotoshop,
   // SiAngular,
   // SiKubernetes,
-  SiNx,
+  // SiNx,
   SiNestjs,
   SiBitbucket,
 } from 'react-icons/si';
@@ -73,7 +73,7 @@ export const skills: SkillItem[] = [
   //   color: '#dd0031',
   //   url: 'https://angular.io/',
   // },
-  { name: 'NX Monorepo', icon: SiNx, color: '#ffffff', url: 'https://nx.dev/' },
+  // { name: 'NX Monorepo', icon: SiNx, color: '#ffffff', url: 'https://nx.dev/' },
   {
     name: 'Tailwind CSS',
     icon: SiTailwindcss,

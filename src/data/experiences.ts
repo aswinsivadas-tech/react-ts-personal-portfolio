@@ -5,7 +5,7 @@ export const experiences = [
     company: 'G-Tec Education, Irinjalakuda',
     type: 'On-site',
     period: 'Oct 2025 – May 2026',
-    description: `A certified InternShip programme in MERN Stack Development, covering MongoDB, Express.js, React, and Node.js. Focused on building dynamic, responsive, and full-stack web applications through practical, project-based learning.`,
+    description: `A certified internship program in MERN Stack Development, covering MongoDB, Express.js, React, and Node.js. Focused on building dynamic, responsive, and scalable full-stack web applications through hands-on, project-based learning.`,
     skills: [
       'React.js',
       'Node.js',
