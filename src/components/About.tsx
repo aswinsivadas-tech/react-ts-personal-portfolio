@@ -137,12 +137,12 @@ export function About() {
           {/* Grid: terminal | cat bio */}
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
             {/* Left: Terminal */}
-            <div className="flex min-h-[320px] justify-center md:justify-start sm:min-h-[360px]">
+            <div className="flex min-h-80 justify-center md:justify-start sm:min-h-90">
               <TerminalWindow />
             </div>
 
             {/* Right: Cat bio */}
-            <div className="flex min-h-[320px] items-stretch sm:min-h-[360px]">
+            <div className="flex min-h-80 items-stretch sm:min-h-90">
               <AboutTerminal isInView={isInView} />
             </div>
 

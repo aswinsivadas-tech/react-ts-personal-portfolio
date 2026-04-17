@@ -61,7 +61,7 @@ function App() {
           {/* <Achievements /> */}
           <Projects />
           {/* <Gallery /> */}
-          <Suspense fallback={<div className="min-h-[400px]" aria-hidden />}>
+          <Suspense fallback={<div className="min-h-100" aria-hidden />}>
             <GitHub />
           </Suspense>
           <Leetcode />
@@ -72,7 +72,7 @@ function App() {
           {/* <Suspense fallback={<div className="min-h-[300px]" aria-hidden />}>
             <YouTubeVideos />
           </Suspense> */}
-          <Suspense fallback={<div className="min-h-[400px]" aria-hidden />}>
+          <Suspense fallback={<div className="min-h-100" aria-hidden />}>
             <Contact />
           </Suspense>
           <Footer />
