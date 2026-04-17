@@ -45,7 +45,7 @@ export function Footer() {
 
           {/* Copyright */}
           <div className="text-sm text-gray-500 dark:text-gray-400 text-center">
-            <p>© {currentYear} Aswin SIvadas. All rights reserved.</p>
+            <p>© {currentYear} Aswin Sivadas. All rights reserved.</p>
             <p className="flex items-center justify-center gap-2">
               Built with{' '}
               <FaReact className="w-6 h-6 text-blue-500 animate-spin" /> using
