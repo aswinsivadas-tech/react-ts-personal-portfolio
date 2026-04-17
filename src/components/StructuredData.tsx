@@ -7,8 +7,8 @@ export function StructuredData() {
       '@context': 'https://schema.org',
       '@type': 'Person',
       name: 'Aswin Sivadas',
-      url: 'https://aswinsivadas.in/',
-      image: 'https://aswinsivadas.in/assets/profile.png',
+      url: 'https://aswinsivadas.com/',
+      image: 'https://aswinsivadas.com/assets/profile.png',
       jobTitle: 'Full Stack Developer',
       hasOccupation: {
         '@type': 'Occupation',

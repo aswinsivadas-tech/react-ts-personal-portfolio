@@ -57,7 +57,7 @@ export const projects: ProjectItem[] = [
     description:
       'My portfolio website, showcasing my professional background and more. Clean, responsive, and shows off my work while keeping things simple and professional.',
     image: '/assets/img/portfolio.png',
-    link: 'https://AswinSivadas.in/',
+    link: 'https://aswinsivadas.com/',
     github: 'https://github.com/aswinsivadas-tech/react-ts-personal-portfolio',
     techStack: [
       { icon: SiHtml5, name: 'HTML', color: '#e34c26' },
@@ -89,7 +89,8 @@ export const projects: ProjectItem[] = [
       'RoyalKulture is a modern, responsive Ecommerce web app showcasing rare and Beautifull Sneakers and creativity through a clean, interactive, and visually appealing user and admin experience.',
     image: '/assets/img/home.png',
     link: 'https://royalkulture-ecommerce-webapp-1.onrender.com/',
-    github: 'https://github.com/aswinsivadas-tech/RoyalKulture-Ecommerce-WebApp',
+    github:
+      'https://github.com/aswinsivadas-tech/RoyalKulture-Ecommerce-WebApp',
     techStack: [
       techStacks.next,
       techStacks.react,

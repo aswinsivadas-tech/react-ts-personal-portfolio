@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://AswinSivadas.in/sitemap.xml
+Sitemap: https://aswinsivadas.com/sitemap.xml
 
 # Disallow admin or private areas if any
 # Disallow: /admin/

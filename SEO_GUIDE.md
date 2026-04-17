@@ -1,4 +1,4 @@
-# SEO Optimization Guide for AswinSivadas.in
+# SEO Optimization Guide for aswinsivadas.com
 
 ## ✅ What Has Been Implemented
 
@@ -46,9 +46,9 @@
 ### 1. **Google Search Console Setup**
 
 1. Go to [Google Search Console](https://search.google.com/search-console)
-2. Add your property: `https://AswinSivadas.in`
+2. Add your property: `https://aswinsivadas.com`
 3. Verify ownership (DNS record or HTML file)
-4. Submit your sitemap: `https://AswinSivadas.in/sitemap.xml`
+4. Submit your sitemap: `https:/aswinsivadas.com/sitemap.xml`
 5. Request indexing for your homepage
 
 ### 2. **Google Analytics (Optional but Recommended)**
@@ -70,7 +70,7 @@ Edit `src/components/StructuredData.tsx` and `index.html` (Person schema) and ad
 
 - Your LinkedIn profile URL
 - Your Twitter/X profile URL
-- Your DEV.to profile URL (https://dev.to/AswinSivadas)
+- Your DEV.to profile URL (https://dev.to/aswinsivadas)
 - Any other social media profiles in the `sameAs` array
 
 ### 5. **Image Optimization**
@@ -109,8 +109,8 @@ Edit `src/components/StructuredData.tsx` and `index.html` (Person schema) and ad
   - LinkedIn
   - Twitter/X
   - GitHub profile
-  - DEV Community (dev.to/AswinSivadas), Hashnode, Medium (if you write articles)
-- Add your website URL (https://AswinSivadas.in) to your social media profiles, including your DEV.to profile
+  - DEV Community (dev.to/aswinsivadas), Hashnode, Medium (if you write articles)
+- Add your website URL (https://aswinsivadas.com) to your social media profiles, including your DEV.to profile
 
 ### 11. **Regular Updates**
 
@@ -182,4 +182,4 @@ Feel free to ask or refer to Google's official SEO documentation.
 ---
 
 **Last Updated**: January 2025
-**Domain**: https://AswinSivadas.in
+**Domain**: https://aswinsivadas.com
